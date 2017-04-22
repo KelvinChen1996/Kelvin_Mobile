@@ -1,0 +1,190 @@
+.collumn {
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+.collumn + .collumn {
+    border-left: 1px solid #2f2f2f;
+}
+.collumn .headline {
+    text-align: center;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl1 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl2 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl2:before {
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl2:after {
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 13px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .citation {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin: 40px 0 40px 0;
+    font-feature-settings: "liga", "dlig";
+}
+.collumn .citation:before {
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .citation:after {
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .figcaption {
+    font-style: italic;
+    font-size: 12px;
+}
+.card {
+  padding: 0;
+  overflow: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(0%) translateY(0%);
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow: 0px 0px 50px rgba(204, 136, 0, 0.2);
+}
+.cardThumb {
+  overflow: hidden;
+  background-color: #000;
+  transition: height 0.3s;
+}
+.cardThumb img {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.cardBody {
+  padding: 20px;
+}
+.cardTitle {
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+}
+.cardTitle a{
+  color: black;
+}
+.cardSubtitle {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 19px;
+  color: darkorange;
+}
+.cardDescription {
+  left: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 0;
+  color: #666C74;
+  font-size: 14px;
+  line-height: 27px;
+}
+.iconz {
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  font-size: 11px;
+  color: #A3A9AB;
+}
+.iconz a{
+  color: #A3A9AB;
+  text-decoration: none;
+}
+.iconz--comment {
+  margin-left: 12px;
+}
+.iconz {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+.berita{
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+.custom{
+    width: 240%;
+}
+.pop{
+    width: 75%;  
+}
+body{
+        background-image: url(images/PikaChise.PNG);
+}
+.gambar{
+    width: 40px;
+    height: 40px;
+}
+.franchise{
+        width:100%;
+        height: 250px;
+    
+}
+.mini{
+    font-size: 12px;
+
+}
+.tengah{
+    text-align: center; 
+}
+.left
+{
+	float:left;
+}
+
+    
+  
