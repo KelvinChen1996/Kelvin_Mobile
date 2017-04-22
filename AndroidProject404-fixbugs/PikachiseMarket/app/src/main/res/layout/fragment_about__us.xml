@@ -1,0 +1,168 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/fr_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_building"
+            android:adjustViewBounds="true"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discover Best Franchise "
+                android:layout_marginLeft="30dp"
+
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="for Your Future"
+                android:layout_marginLeft="85dp"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_below="@id/fr_image">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pikachise's Member"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/primary_text"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/william"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:border_width="2dp"
+                app:border_color="@color/primary_text"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/adrian"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:border_width="2dp"
+                app:border_color="@color/primary_text"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kelvin"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:border_width="2dp"
+                app:border_color="@color/primary_text"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/chrisman"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:border_width="2dp"
+                app:border_color="@color/primary_text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="William"
+
+                android:layout_marginLeft="25dp"
+
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adrian"
+                android:layout_marginLeft="45dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kelvin"
+                android:layout_marginLeft="55dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chrisman"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14.111.1821"
+                android:textSize="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14.111.1537"
+                android:textSize="12dp"
+                android:layout_marginLeft="28dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14.111.1308"
+                android:textSize="12dp"
+                android:layout_marginLeft="28dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14.111.3228"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

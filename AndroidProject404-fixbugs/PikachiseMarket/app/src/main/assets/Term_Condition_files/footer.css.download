@@ -1,0 +1,164 @@
+.sosmed a{
+	background: #1a1a1a;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-transition: all .5s;
+	margin-right: 30px;
+}
+a.icon:before{
+	font-family: 'FontAwesome';
+	font-size: 40px;
+}
+a.icon span{
+	background: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	left: -20px;
+	right: -25px;
+	padding: 5px 7px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all .7s;
+	transition: all .7s;
+}
+a.icon span:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #fff;
+	position: absolute;
+	bottom: -5px;
+	left: 40px;
+}
+a.icon:hover span{
+	bottom: 60px;
+	visibility: visible;
+	opacity: 1;
+}
+.fa-facebook{
+	color: #4183D7;
+}
+.fa-twitter{
+	color: #19B5FE;
+}
+.fa-pinterest{
+	color: #cc2127;
+}
+.fa-linkedin{
+	color: #0094BC;
+}
+.fa-instagram{
+	color: #000;
+}
+.fa-facebook:hover{
+	background-color: #4183D7;
+	color: #fff;
+}
+.fa-facebook span{
+	color: #4183D7;
+}
+.fa-twitter:hover{
+	background-color: #19B5FE;
+	color: #fff;
+}
+.fa-twitter span{
+	color: #19B5FE;
+}
+.fa-pinterest:hover{
+	background-color: #cc2127;
+	color: #fff;
+}
+.fa-pinterest span{
+	color: #cc2127;
+}
+.fa-linkedin:hover{
+	background-color: #0094BC;
+	color: #fff;
+}
+.fa-linkedin span{
+	color: #0094BC;
+}
+.fa-instagram:hover{
+	background-color: #000;
+	color: #fff;
+}
+.fa-instagram span{
+	color: #000;
+}
+.footas{
+	text-align: center;
+	margin: 50px auto;
+	width: 400px;
+	height: 250px;
+}
+.footas h3{
+	color: #ffb399;
+}
+
+
+footer{
+	background-color: #1a1a1a;
+    margin-top: 80px;
+    padding:10px;
+    color:white;
+}
+footer .left{
+	float: left;
+}
+footer .right{
+	float: right;
+}
+footer li{
+	list-style-type: none;
+	color: #999999;
+}
+footer li a{
+	color: white;
+	text-decoration: none;
+}
+footer ul{
+	float: left;
+}
+footer li a:hover{
+	color: #b3ffb3;
+	text-decoration: none;
+}
+footer li p{
+	font-size: 18px;
+}
+
+.sosmed{
+	text-align: center;
+}
+.sosmed p{
+	color: #ffb399;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.terms li{
+	float: left;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+p.right {
+ 	float: right;
+}
+
+#lokasi{
+    text-align: center;
+}
